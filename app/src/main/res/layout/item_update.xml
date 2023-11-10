@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="#F6EFB4"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE Sản Phẩm "
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#B83026"
+        android:backgroundTint="#F6EFB4"
+        android:layout_marginTop="50sp"
+        />
+
+    <EditText
+        android:id="@+id/up_mamh"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_card"
+        android:layout_gravity="center"
+        android:hint="Nhập tên động vật"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:id="@+id/up_tenmh"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_card"
+        android:layout_gravity="center"
+        android:hint="Nhập giá"
+        android:paddingLeft="20sp"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:id="@+id/up_sotiet"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_card"
+        android:layout_gravity="center"
+        android:hint="Nhập số lượng"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Update "
+            android:backgroundTint="#E3BB46"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#E3BB46"
+            android:text="Cancle"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
